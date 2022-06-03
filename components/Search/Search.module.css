@@ -1,0 +1,15 @@
+.Search {
+  position: relative;
+
+}
+
+.Input {
+  height: 38px;
+  width: 100%;
+}
+
+.Button {
+  height: inherit;
+  position: absolute;
+  right: 0;
+}

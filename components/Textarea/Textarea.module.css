@@ -1,0 +1,10 @@
+.Textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--primary);
+}
+
+.Textarea:focus {
+  border: 1px solid var(--primary);
+  outline: 1px solid var(--primary);
+}

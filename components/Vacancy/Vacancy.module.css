@@ -1,0 +1,73 @@
+.vacancies {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 30px;
+}
+
+.count {
+	padding: 20px;
+
+	text-align: center;
+}
+
+.title {
+	margin-bottom: 10px;
+
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 27px;
+}
+
+.countValue {
+	font-size: var(--primary);
+	font-size: 700;
+	font-size: 36px;
+}
+
+.salaryValue {
+	color: var(--black);
+
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.rating {
+	margin-top: 10px;
+}
+
+.rating svg:not(:first-child) {
+	margin-left: 5px;
+}
+
+.rating svg:hover {
+	fill: var(--primary);
+}
+
+.rating svg.filled {
+	fill: var(--primary);
+}
+
+.salary {
+	display: grid;
+
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.salary > div {
+	padding: 20px;
+
+	border-right: 1px solid var(--gray-light);
+}
+
+.salary > div:last-child {
+	border-right: none;
+}
+
+@media (min-width: 1200px) {
+	.vacancies {
+		display: grid;
+		grid-template-columns: 1fr 3fr;
+		gap: 30px;
+	}
+}
